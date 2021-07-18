@@ -718,7 +718,7 @@ class _SfDataPagerState extends State<SfDataPager> {
     Icon buildIcon() {
       return Icon(iconData,
           key: ValueKey<String>(type),
-          size: 20,
+          size: 18,
           color: visible
               ? _dataPagerThemeData!.brightness == Brightness.light
                   ? _dataPagerThemeData!.disabledItemTextStyle.color
