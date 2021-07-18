@@ -353,8 +353,8 @@ class SfDataPager extends StatefulWidget {
 }
 
 class _SfDataPagerState extends State<SfDataPager> {
-  static const double _defaultPageItemWidth = 50.0;
-  static const double _defaultPageItemHeight = 50.0;
+  static const double _defaultPageItemWidth = 40.0;
+  static const double _defaultPageItemHeight = 40.0;
   static const EdgeInsets _defaultPageItemPadding = EdgeInsets.all(5);
   static const Size _defaultPagerDimension =
       Size(300.0, _defaultPageItemHeight);
