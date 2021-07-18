@@ -11,6 +11,8 @@ dependencies:
     sdk: flutter
 
   syncfusion_flutter_core:
-    path: ../syncfusion_flutter_core
+    git:
+      url: https://github.com/zubairehman/flutter-widgets.git
+      path: packages/syncfusion_flutter_datagrid
 
   collection: ">=1.9.0 <=1.15.0"
